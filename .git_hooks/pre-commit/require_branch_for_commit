@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "verifying there is a branch set"
+if git branch | grep -q "no branch" 
+then 
+	echo "ERROR: you are trying to commit without a branch."
+	echo
+	exec git branch
+        exit 1
+fi

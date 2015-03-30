@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<PropertyList varName="ApplicationSettings" IsManaged="TRUE">
+ <String varName="CharSet">none</String>
+ <String varName="DiffOption">dl</String>
+ <Font varName="Font">
+  <family>Courier</family>
+  <pointSize>10</pointSize>
+  <weight>Normal</weight>
+  <italic>false</italic>
+ </Font>
+ <Bool varName="InlineDiffsEnabled">true</Bool>
+ <String varName="LineEnding">Unix</String>
+ <PropertyList varName="PreferencesDialog" IsManaged="TRUE">
+  <ByteArray varName="WindowGeometry">AdnQywABAAAAAAeuAAAAfwAACgAAAAMhAAAHrgAAAJUAAAoAAAADIQAAAAAAAA==</ByteArray>
+ </PropertyList>
+ <Bool varName="ShowTabsSpaces">false</Bool>
+ <Bool varName="TabInsertsSpaces">false</Bool>
+ <Int varName="TabWidth">8</Int>
+ <PropertyList varName="Windows" IsManaged="TRUE">
+  <PropertyList varName="CompareDialog" IsManaged="TRUE">
+   <String varName="DefaultPath">/opt/move/share/versions/cosca/publish3</String>
+   <ByteArray varName="WindowGeometry">AdnQywABAAAAAAb1AAAAbQAACM0AAAFYAAAG9QAAAIMAAAjNAAABWAAAAAAAAA==</ByteArray>
+  </PropertyList>
+  <PropertyList varName="Diff" IsManaged="TRUE">
+   <Bool varName="DiffCombined">false</Bool>
+   <ByteArray varName="WindowGeometry">AdnQywABAAAAAAHaAAABewAACVkAAAVnAAAB2gAAAXsAAAlZAAAFZwAAAAAAAA==</ByteArray>
+   <ByteArray varName="WindowState">AAAA/wAAAAD9AAAAAAAAB4AAAAO4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAkAE0AYQBpAG4AVwBpAG4AZABvAHcAIABUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAA=</ByteArray>
+  </PropertyList>
+  <PropertyList varName="Merge" IsManaged="TRUE">
+   <Bool varName="ShowBase">true</Bool>
+   <ByteArray varName="WindowGeometry">AdnQywABAAAAAAAJAAAAJAAACggAAAYYAAAACQAAACQAAAoIAAAGGAAAAAAAAA==</ByteArray>
+   <ByteArray varName="WindowState">AAAA/wAAAAD9AAAAAAAACgAAAAXAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAkAE0AYQBpAG4AVwBpAG4AZABvAHcAIABUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAA=</ByteArray>
+  </PropertyList>
+  <PropertyList varName="MergeDiff" IsManaged="TRUE">
+   <Bool varName="ShowLineNumbers">false</Bool>
+  </PropertyList>
+ </PropertyList>
+</PropertyList>

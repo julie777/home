@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [[ `git symbolic-ref HEAD` == "refs/heads/releases" ]]
+then
+    echo "You cannot commit to releases!"
+    echo "Stash your changes and apply them to another branch"
+    echo "git stash"
+    echo "git checkout <branch>"
+    echo "git stash pop"
+    exit 1
+fi
+
+
+echo "running precommit"
+if git branch | grep -q "no branch" 
+then 
+	echo "ERROR: you are trying to commit without a branch."
+	echo
+	exec git branch
+        exit 1
+fi
+echo "done running precommit"
